@@ -4,6 +4,7 @@ pipeline {
     stage("build"){
       steps {
         echo "building the app"
+        echo "hook worked"
       }
     }
     stage("test") {
